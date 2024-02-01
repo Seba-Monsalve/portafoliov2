@@ -1,0 +1,22 @@
+.floating-nav {
+    position: fixed;
+    background-color: gray;
+    left: 0;
+    top: 55%;
+    margin: 0 2em;
+    border: 2px solid white;
+    border-radius: 0.2em;
+
+}
+
+.floating-nav a {
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+.floating-nav a:hover {
+    background-color: #626262;
+}

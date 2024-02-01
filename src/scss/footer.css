@@ -1,0 +1,20 @@
+#footer-titulo {
+    padding: 0.5em;
+    color: black;
+    transition: color 1.5s linear;
+}
+
+#footer-titulo:hover {
+    color: #aeaeae;
+}
+
+
+.nada {
+
+    color: #0d0d0d;
+    color: #aeaeae;
+    color: #eaeaea;
+    color: #686869;
+    color: #626262;
+    color: #b7b7b7
+}

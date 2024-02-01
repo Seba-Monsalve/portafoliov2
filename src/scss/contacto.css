@@ -1,0 +1,32 @@
+#contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0em 0em 2em 1em;
+    p {
+        width: 60%;
+    }
+}
+
+.contacto-list {
+    display: flex;
+
+}
+
+.contacto-item {
+    display: flex;
+    border: 0.2em black solid;
+    padding: 0.5em;
+    margin: 1em;
+    align-items: center;
+    border-radius: 0.5em;
+    transition: border 0.3s;
+    background:transparent;
+    img {
+        width: 35px;
+    }
+}
+
+.contacto-item:hover {
+    border: 0.2em solid white;
+}

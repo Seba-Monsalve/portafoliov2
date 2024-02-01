@@ -1,0 +1,30 @@
+#experiencia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.experiencia-list {
+    align-items: center;
+    width: 70%;
+
+}
+
+
+.experiencia-item  {
+    padding: 1em;
+    width: 15%;
+    display: inline-block;
+    margin: 1em 1em;
+
+    transition: border 0.3s;
+    border: 2px solid white;
+    border-radius: 0.5em;
+}
+
+
+.experiencia-item:hover {
+    border: 2px solid gray;
+}

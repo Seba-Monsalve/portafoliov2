@@ -1,0 +1,44 @@
+@import './scss/reset.css';
+@import './scss/navbar.css';
+@import './scss/home.css';
+@import './scss/experiencia.css';
+@import './scss/tecnologias.css';
+@import './scss/contacto.css';
+@import './scss/footer.css';
+@import './scss/floating-nav.css';
+
+/*# sourceMappingURL=App.css.map */
+
+html {
+    scroll-behavior: smooth
+}
+
+section{
+    padding: 1em;
+}
+.seccion-oscura {
+    background-color: #040D12;
+    color: white;
+}
+
+.seccion-clara {
+    background-color: white;
+    color: black;
+}
+
+.seccion-titulo {
+    font-size: 2.5em;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.descripcion {
+    width: 80%;
+    margin: 1em;
+}
+h1,
+h2,
+h3,
+p {
+    text-align: center;
+}
