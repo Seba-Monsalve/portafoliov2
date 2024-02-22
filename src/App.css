@@ -13,9 +13,10 @@ html {
     scroll-behavior: smooth
 }
 
-section{
+section {
     padding: 1em;
 }
+
 .seccion-oscura {
     background-color: #040D12;
     color: white;
@@ -33,12 +34,17 @@ section{
 }
 
 .descripcion {
-    width: 80%;
-    margin: 1em;
+    width: 60%;
+    margin: 2em 0;
 }
+
 h1,
 h2,
 h3,
 p {
     text-align: center;
+}
+
+.icon{
+    fill:green;
 }
