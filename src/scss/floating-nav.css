@@ -1,5 +1,7 @@
 .floating-nav {
     position: fixed;
+    display: flex;
+    align-items: center;
     background-color: gray;
     left: 0;
     top: 55%;
@@ -11,7 +13,7 @@
 
 .floating-nav a {
     display: block;
-    padding: 0.5em 1em;
+    padding: 0.5em;
     text-decoration: none;
     color: white;
     transition: background-color 0.5s ease;

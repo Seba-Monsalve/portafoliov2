@@ -2,10 +2,12 @@
 export const Navbar = () => {
   return (
 
-    <nav className="seccion-oscura" >
+    <nav id="navbar" className="seccion-clara" >
+      LOGO
       <ul>
-        <li className="nav-link"><a href="#home">Home</a></li>
-        <li className="nav-link"><a href="#tecnologias">H & T</a></li>
+        <li className="nav-link"><a href="#navbar">Home</a></li>
+        <li className="nav-link"><a href="#habilidades">Habilidades</a></li>
+        <li className="nav-link"><a href="#tecnologias">Tecnologias</a></li>
         <li className="nav-link"><a href="#experiencia">Experiencia</a></li>
         <li className="nav-link"><a href="#contacto">Contacto</a> </li>
       </ul>

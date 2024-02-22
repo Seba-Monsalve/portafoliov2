@@ -1,6 +1,12 @@
+footer {
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    padding: 1em 0;
+}
+
 #footer-titulo {
-    padding: 0.5em;
-    color: black;
+    color: #2f2e34;
     transition: color 1.5s linear;
 }
 

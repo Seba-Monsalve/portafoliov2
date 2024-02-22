@@ -3,12 +3,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .list-tecnologias {
     text-align: center;
     width: 70%;
-
+    height: 100%
 }
 
 .tecnologias-item {
@@ -43,38 +44,3 @@ h3 {
     border: 2px solid gray;
 }
 
-
-
-
-
-.habilidades-list {
-    width: 80%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.habilidades-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.image-container {
-    margin: 0 2em;
-    height: 10em;
-    width: 10em;
-    background-color: #bbb;
-    border-radius: 50%;
-}
-
-
-.skill-icon {
-    position: relative;
-    width: 5em;
-    height: 5em;
-    top: 25%;
-}

@@ -2,7 +2,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0em 0em 2em 1em;
+    justify-content: center;
+    text-align: center;
+    min-height: 85vh;
+
     p {
         width: 60%;
     }
@@ -10,23 +13,42 @@
 
 .contacto-list {
     display: flex;
-
 }
 
 .contacto-item {
     display: flex;
-    border: 0.2em black solid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    border: 0.2em transparent solid;
     padding: 0.5em;
     margin: 1em;
-    align-items: center;
+    text-align: center;
+    justify-content: center;
     border-radius: 0.5em;
     transition: border 0.3s;
-    background:transparent;
+    background: transparent;
+    justify-content: center;
+
     img {
         width: 35px;
+    }
+
+    width: 10em;
+
+    a {
+        text-align: center;
     }
 }
 
 .contacto-item:hover {
     border: 0.2em solid white;
+}
+
+.contacto-icon {
+    fill: white;
+    height: 3em;
+    padding: 1em;
+    text-align: center;
 }

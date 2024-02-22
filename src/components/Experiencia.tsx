@@ -1,7 +1,8 @@
 
 export const Experiencia = () => {
     return (
-        <section className="seccion-oscura" id="experiencia">
+        <section className="seccion-clara" id="experiencia">
+            <pre>Donde he trabajado</pre>
             <h2 className="seccion-titulo">Experiencia</h2>
             <p className="descripcion">Est fugiat consequat nisi ea excepteur minim ullamco consectetur ut et ex pariatur id eu. Ullamco culpa quis aliqua adipisicing pariatur do. Anim est ad voluptate consectetur voluptate ullamco sint irure do. Voluptate enim enim velit nisi excepteur sunt laboris ea Lorem tempor elit laboris irure.</p>
 
