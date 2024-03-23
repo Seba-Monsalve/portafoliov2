@@ -4,6 +4,14 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+
+    h2 {
+        color: white;
+    }
+    span{
+    color: orange;
+
+    }
 }
 
 .nav-link {
@@ -11,16 +19,15 @@ nav {
 }
 
 .nav-link a {
-    margin: 0 1em;
     padding: 0.5em 1em;
     text-decoration: none;
     color: gray;
-    transition: color 0.5s ease,border 1s ease;
-    border: 2px solid transparent ;
+    transition: color 0.5s ease, border 1s ease;
+    border: 2px solid transparent;
 }
 
 .nav-link a:hover {
     cursor: pointer;
     color: white;
-    border: 2px solid white 
+    border: 2px solid white
 }
