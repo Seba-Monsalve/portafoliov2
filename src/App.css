@@ -19,7 +19,7 @@ html {
 section {
     color: white;
     min-height: 100vh;
-    --bg-color-dark: #2f2e34
+    --bg-color-dark: #2f2e34;
 }
 
 
@@ -44,6 +44,7 @@ pre {
 .descripcion {
     width: 60%;
     margin: 1em;
+    line-height: 2em;
 }
 
 h1,
@@ -59,4 +60,10 @@ a:active {
     color: white;
     text-decoration: none;
     text-decoration-line: none;
+}
+
+@media (max-width:900px){
+    .home-descripcion{
+        display: none;
+    }
 }

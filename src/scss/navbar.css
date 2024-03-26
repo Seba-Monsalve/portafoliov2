@@ -1,10 +1,16 @@
 nav {
     padding: 1em;
     display: flex;
+    position: sticky;
+    top: 0px;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-
+    animation: adjust-navbar linear both;
+    animation-timeline: scroll();
+    animation-range:0 100px;
+    
+    border-bottom: 2px orange solid;
     h2 {
         color: white;
     }
@@ -12,6 +18,11 @@ nav {
     color: orange;
 
     }
+}
+
+nav:hover nav{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .nav-link {
@@ -30,4 +41,12 @@ nav {
     cursor: pointer;
     color: white;
     border: 2px solid white
+}
+
+@keyframes adjust-navbar{
+    to{
+        font-size: 1em;
+    z-index: 2;
+
+    }
 }

@@ -6,7 +6,7 @@ export const Habilidades = () => {
             <pre >Lo que me caracteriza</pre>
             <h2 className="seccion-titulo">Habilidades </h2>
 
-            <p className="descripcion">Est fugiat consequat nisi ea excepteur minim ullamco consectetur ut et ex pariatur id eu. Ullamco culpa quis aliqua adipisicing pariatur do. Anim est ad voluptate consectetur voluptate ullamco sint irure do. Voluptate enim enim velit nisi excepteur sunt laboris ea Lorem tempor elit laboris irure.</p>
+            <p className="descripcion">Es importante saber codificar y hacerse entender con la maquina, pero eso no es todo. A continuacion algunas cualidades que son dignas de mencionar.</p>
             <ul className="habilidades-list">
                 <motion.div whileHover={{
                     scale: 1.2

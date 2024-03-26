@@ -9,7 +9,6 @@ function App() {
   return (
     <>
       <Navbar />
-      <hr style={{backgroundColor:'#d99a35',border:'none', height:'2px', width:'100%', margin:'0 0'}} />
 
       <Home />
       <Habilidades />
@@ -18,7 +17,6 @@ function App() {
       <Experiencia />
       <Contacto />
       <Footer />
-      <FloatingNav />
     </>
   )
 }

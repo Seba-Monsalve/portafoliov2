@@ -5,22 +5,26 @@ export const Experiencia = () => {
 
     const [expDesc, setExpDesc] = useState(
         {
-            year: 2000,
+            year: '2000',
             empresa: 'Emerix',
             text: 'Documentacion',
             area: 'Producto Exelix',
             isClicked: 3
+            , flag: 'CL'
         });
 
-    const handleOnClick = ({ year, text, isClicked, empresa, area }: { area: string, year: number | String, text: string, isClicked: number, empresa: string }) => {
-        setExpDesc({ area, year, text, isClicked, empresa })
+    const handleOnClick = ({ year, text, isClicked, empresa, area, flag }: { flag: string, area: string, year: string, text: string, isClicked: number, empresa: string }) => {
+        setExpDesc({ area, year, text, isClicked, empresa, flag })
     }
 
     return (
         <section className="seccion-clara" id="experiencia">
             <pre>Donde he trabajado</pre>
             <h2 className="seccion-titulo">Experiencia</h2>
-            <p className="descripcion">Est fugiat consequat nisi ea excepteur minim ullamco consectetur ut et ex pariatur id eu. Ullamco culpa quis aliqua adipisicing pariatur do. Anim est ad voluptate consectetur voluptate ullamco sint irure do. Voluptate enim enim velit nisi excepteur sunt laboris ea Lorem tempor elit laboris irure.</p>
+            <p className="descripcion">Este de mi control de experiencia, listo para el siguiente <i style={{ fontFamily: 'italic' }}>
+                commit
+            </i>
+            </p>
             <br />
             <br />
             <div className="exp-spec">
@@ -63,7 +67,10 @@ export const Experiencia = () => {
 
                     {/* BRANCH AUTO */}
                     <g className="exp-item"
-                        onClick={() => handleOnClick({ year: '01/2024', text: 'Desarrollo y formacion', area: 'Estudios', empresa: 'Alura', isClicked: 4 })}>
+                        onClick={() => handleOnClick({
+                            year: '01/2024', text: 'Desarrollo y formacion',
+                            area: 'Estudios', empresa: 'Alura', isClicked: 4
+                        })}>
                         <circle cx="250" cy="25" r="15"
                             stroke={expDesc.isClicked == 4 ? 'white' : ''}
                             stroke-width="4" fill="orange" />
@@ -73,12 +80,13 @@ export const Experiencia = () => {
                 <div className="exp-desc">
                     <br />
                     <h2>{expDesc.year}</h2>
-                    <hr style={{ border:'1px orange solid', width: '70%', margin: '10px auto' }} />
+                    <hr style={{ border: '1px orange solid', width: '70%', margin: '10px auto' }} />
                     <h1>{expDesc.empresa}</h1>
                     <br />
                     <p>{expDesc.text}</p>
                     <br />
                     <p style={{ fontFamily: 'italic' }}> {expDesc.area}</p>
+
                 </div>
             </div>
         </section>
