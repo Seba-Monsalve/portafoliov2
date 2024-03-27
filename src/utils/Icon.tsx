@@ -1,4 +1,3 @@
-import { SVGProps } from "react"
 
 interface Props {
     path_d: string[]

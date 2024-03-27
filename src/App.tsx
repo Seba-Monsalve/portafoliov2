@@ -1,5 +1,5 @@
 import './App.css'
-import { Navbar, Home, Tecnologias,Experiencia,Contacto, Footer, FloatingNav, Habilidades} from './components/'
+import { Navbar, Home, Tecnologias,Experiencia,Contacto, Footer, Habilidades} from './components/'
 import { Proyectos } from './components/Proyectos';
 
 import "@fontsource/open-sans"; // Defaults to weight 400.
