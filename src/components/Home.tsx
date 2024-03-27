@@ -3,7 +3,7 @@ export const Home = () => {
   return (
     <section id='home' className="seccion-oscura">
       {/* <h2 className="seccion-titulo">Sobre mi</h2> */}
-      <img src="/public/perfil.jpg" alt="Foto de perfil - Seba Monsalve" className='foto-perfil' />
+      <img src="./programacion/perfil.jpg" alt="Foto de perfil - Seba Monsalve" className='foto-perfil' />
       <div className='home-descripcion'>
         
         <p>  Mi nombre es Sebastian Monsalve.</p>
