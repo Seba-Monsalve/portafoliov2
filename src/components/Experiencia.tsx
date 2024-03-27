@@ -10,18 +10,17 @@ export const Experiencia = () => {
             text: 'Documentacion',
             area: 'Producto Exelix',
             isClicked: 3
-            , flag: 'CL'
         });
 
-    const handleOnClick = ({ year, text, isClicked, empresa, area, flag }: { flag: string, area: string, year: string, text: string, isClicked: number, empresa: string }) => {
-        setExpDesc({ area, year, text, isClicked, empresa, flag })
+    const handleOnClick = ({ year, text, isClicked, empresa, area, }: { area: string, year: string, text: string, isClicked: number, empresa: string }) => {
+        setExpDesc({ area, year, text, isClicked, empresa, })
     }
 
     return (
         <section className="seccion-clara" id="experiencia">
             <pre>Donde he trabajado</pre>
             <h2 className="seccion-titulo">Experiencia</h2>
-            <p className="descripcion">Este de mi control de experiencia, listo para el siguiente <i style={{ fontFamily: 'italic' }}>
+            <p className="descripcion">Este es mi control de experiencia, listo para el siguiente <i style={{ fontFamily: 'italic' }}>
                 commit
             </i>
             </p>

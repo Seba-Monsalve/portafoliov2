@@ -7,7 +7,9 @@ export const Contacto = () => {
             <h2 className='seccion-titulo'>
                 Contacto
             </h2>
-            <p className='descripcion'>Estamos a un click de distancia. Waiting for connection ...</p>
+            <p >Estamos a un click de distancia. </p><br />
+                <p > Waiting for connection</p>
+                <span className='loading'> </span>
             <br /><br />
             <ul className="contacto-list">
                 <motion.li

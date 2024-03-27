@@ -4,17 +4,18 @@
     padding: 3em;
     align-items: center;
     justify-content: space-evenly;
-    height: 80vh;
     img{
         height: 80%;
+        max-width: 312px;
     }
 }
 
 .home-descripcion{
     width: 50%;
     line-height: 2em;
-
      background: #686869;
      padding: 2em;
      border: 1em inset #aeaeae;
-}
+
+
+    }

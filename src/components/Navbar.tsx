@@ -4,8 +4,8 @@ export const Navbar = () => {
     <>
 
       <nav className="seccion-clara" >
-        <h2>
-          Seba <span>Monsalve
+        <h2 style={{color:"white"}}>
+          Seba <span style={{color:"orange"}}>Monsalve
           </span>
         </h2>
         <ul>

@@ -13,6 +13,9 @@
 
 .contacto-list {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .contacto-item {
@@ -20,7 +23,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
     border: 0.2em transparent solid;
     padding: 0.5em;
     margin: 1em;
@@ -51,4 +54,36 @@
     height: 8em;
     padding: 1em;
     text-align: center;
+}
+
+.loading{
+    width: 10px;
+    height: 10px;
+}
+.loading::after {
+    animation: dotty steps(3, end) 2s infinite;
+    content: ' ';
+ 
+}
+
+@keyframes dotty {
+    0% {
+        content: ' ';
+    }
+
+    25% {
+        content: '.';
+    }
+
+    50% {
+        content: '..';
+    }
+
+    75% {
+        content: '...';
+    }
+
+    100% {
+        content: ' ';
+    }
 }

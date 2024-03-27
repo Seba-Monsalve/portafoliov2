@@ -18,7 +18,7 @@ html {
 
 section {
     color: white;
-    min-height: 100vh;
+    min-height: 110vh;
     --bg-color-dark: #2f2e34;
 }
 
@@ -63,7 +63,16 @@ a:active {
 }
 
 @media (max-width:900px){
-    .home-descripcion{
+    #home{
+        flex-direction: column;
+        gap:1em;
+    }
+    img{
+        max-width:312px;
+        width: 100%;
+    }
+    .home-descripcion{width: 100%;}
+    .nav-link{
         display: none;
     }
 }
