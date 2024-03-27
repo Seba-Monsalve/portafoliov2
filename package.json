@@ -1,7 +1,7 @@
 {
-  "homepage": "https://seba-monsalve.github.io/portafoliov2",
+  "homepage": "https://seba-monsalve.github.io/",
   "name": "portafolio-01",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
