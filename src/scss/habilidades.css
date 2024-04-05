@@ -43,3 +43,10 @@
     top: 15%;
     transition: all ease 0.5s;
 }
+
+
+
+.good-idea:hover{
+    fill: yellow;
+    color: gray;
+}
